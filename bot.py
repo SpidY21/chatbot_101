@@ -25,8 +25,8 @@ def chatbot(prompt):
         return f"Error processing the API response: {e}"
 
 # --- Streamlit UI ---
-st.title("Simple Chatbot using OpenRouter")
-st.markdown("Type your message and press Enter.")
+st.title("AI Powered Chatbot")
+st.markdown("Type your query and press Enter.")
 
 # Initialize chat history in Streamlit Session State
 if "messages" not in st.session_state:
